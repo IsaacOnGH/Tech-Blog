@@ -1,0 +1,8 @@
+{{#each userPosts}}
+  <div>
+    <h2>{{title}}</h2>
+    <p>{{content}}</p>
+    <p>Posted on {{createdAt}}</p>
+    <a href="/post/edit/{{id}}">Edit</a> | <a href="/post/delete/{{id}}">Delete</a>
+  </div>
+{{/each}}

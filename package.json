@@ -1,0 +1,28 @@
+{
+    "name": "tech-blog",
+    "version": "1.0.0",
+    "description": "Tech Blog CMS",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "jest",
+        "test:e2e": "cypress run"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "connect-session-sequelize": "^7.1.1",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^6.0.0",
+        "express-session": "^1.17.2",
+        "mysql2": "^2.3.0",
+        "sequelize": "^6.6.2"
+    },
+    "devDependencies": {
+        "cypress": "^4.2.0",
+        "jest": "^28.0.1",
+        "supertest": "^6.1.6"
+    }
+}
