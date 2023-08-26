@@ -64,6 +64,10 @@ Contributions are welcome! If you have suggestions for improvements or encounter
 
 ## License
 
+## Preview
+
+[Link to Heroku Build](https://guarded-thicket-59968-20e055c23dca.herokuapp.com)
+
 This project is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Questions
